@@ -11,6 +11,8 @@ pipeline {
    stage('Environment') {
      steps {
        echo " The environment is ${params.Env}"
+        echo " The environment is ${params.DEV}"
+         echo " The environment is ${params.QA}"
      }
    }
    
